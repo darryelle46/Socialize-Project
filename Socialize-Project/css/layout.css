@@ -1,0 +1,191 @@
+@import url('nav.css');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    
+}
+
+h3{
+    color: black;
+}
+
+section{
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+#menu{
+    background-color: khaki;
+}
+
+.nav_wrap{
+    display: table;
+    padding: 20px 0 20px 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.item{
+    display: inline-block;
+}
+
+.item_text:hover{
+    background-color: azure;
+    cursor: pointer;
+    color: #000;
+}
+
+.item_text{
+    padding: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#intro{
+    background-color: lightgray;
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0; 
+    right:0;
+    margin: auto;
+    border-radius: 50%;
+    background-image: url(/images/dball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 9;
+}
+
+.main{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 700px;
+}
+
+.intro_block{
+    width: 50%;
+    height: 300px;
+    background-color: darkgray;
+    float: left;
+    position: relative;
+}
+
+.blue-overlay{
+    background-color: rgba(0,0,255, .8);
+    z-index: 1;
+}
+
+.blue-overlay{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+
+.blue-gradient{
+    background: blue; /* For browsers that do not support gradients*/
+    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    opacity: .5;
+}
+
+.intro_block_alt{
+    background-color: aqua;
+}
+
+.clear{
+    clear: both;
+}
+
+#dbz{
+    background-image: url('../images/dbz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#melio{
+    background-image: url('../images/melio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+#tgkane{
+    background-image: url('../images/tgkane.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#nine{
+    background-image: url('../images/nine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text_layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 4;
+    width: 100%;
+}
+
+#intro .text_layer h2.alt{
+    color: white;
+    font-weight: 200;
+    width: 60%;
+    padding-top: 10px;
+    margin: auto auto auto auto;
+}
+
+#fact{
+    background-color: #BC1717;
+}
+
+#fact .text_layer{
+    width: 100%;
+}
+
+#fact h2{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    height: 200px;
+}
+
+#fact h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin: 40px 10px 10px 10px; 
+}
